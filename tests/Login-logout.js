@@ -1,6 +1,6 @@
 
 'use strict';
-var input = require('../tests/variable.js');
+var input = require('./variable.js');
 // var API = require('../APIs/login.js');
 
 // describe('login with API', function () {
@@ -27,9 +27,3 @@ describe('login screen', function () {
     });
 });
 
-describe('Logout application', function () {
-    it('User Logout', function () {
-        element(by.xpath("//span[.='Logout']")).click();
-        browser.sleep(2000);
-    });
-});
